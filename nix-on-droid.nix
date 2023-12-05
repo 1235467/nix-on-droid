@@ -29,8 +29,9 @@
     openssh
     rsync
     inputs.nur-custom.legacyPackages.aarch64-linux.jjwxcCrawler
-    inputs.nur-custom.legacyPackages.aarch64-linux.swgp-go
-    inputs.nur-custom.legacyPackages.aarch64-linux.ab-av1
+    inputs.nur-custom.legacyPackages.aarch64-linux.ncmdump-rs
+    inputs.nur-custom.legacyPackages.aarch64-linux.reflac
+    
   ];
 
   # Backup etc files instead of failing to activate generation if a file already exists in /etc
