@@ -12,6 +12,19 @@
 #     gnupg
 #     gnused
 #     gnutar
+    libgourou
+  git
+  nixpkgs-fmt
+  man
+  vim
+
+  # necessary unzipping
+  bzip2
+  gzip
+  xz
+  zip
+  unzip
+    p7zip
     fish
     openssh
     rsync
