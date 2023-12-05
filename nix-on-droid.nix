@@ -2,28 +2,19 @@
 
 {
   environment.packages = with pkgs; [
-    vim # or some other editor, e.g. nano or neovim
-    diffutils
-    findutils
-    utillinux
-    tzdata
-    hostname
-    man
-    gnugrep
-    gnupg
-    gnused
-    gnutar
-    bzip2
-    gzip
-    xz
-    zip
-    unzip
+# or some other editor, e.g. nano or neovim
+#     diffutils
+#     findutils
+#     utillinux
+#     tzdata
+#     hostname
+#     gnugrep
+#     gnupg
+#     gnused
+#     gnutar
     fish
-    nixpkgs-fmt
-    libgourou
     openssh
     rsync
-    git
   ];
 
   # Backup etc files instead of failing to activate generation if a file already exists in /etc
