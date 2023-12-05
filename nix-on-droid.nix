@@ -1,4 +1,4 @@
-{ config, lib, pkgs, ... }:
+{ config, lib, pkgs, inputs, ... }:
 
 {
   environment.packages = with pkgs; [
@@ -28,6 +28,7 @@
     fish
     openssh
     rsync
+    inputs.nur-custom.legacyPackages.aarch64-linux.jjwxcCrawler
   ];
 
   # Backup etc files instead of failing to activate generation if a file already exists in /etc

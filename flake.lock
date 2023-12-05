@@ -151,11 +151,32 @@
         "type": "gitlab"
       }
     },
+    "nur-custom": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1701779552,
+        "narHash": "sha256-DlJ9r7cYOB8HDq0YD8grJbG37BzYgmwLk2FSlFGgnAc=",
+        "owner": "1235467",
+        "repo": "nurpkgs",
+        "rev": "f089a32dfe39e14d531b128b5051c7691dea424b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "1235467",
+        "repo": "nurpkgs",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "home-manager": "home-manager",
         "nix-on-droid": "nix-on-droid",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "nur-custom": "nur-custom"
       }
     }
   },

@@ -14,9 +14,12 @@
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.home-manager.follows = "home-manager";
     };
+    nur-custom.url = "github:1235467/nurpkgs";
+    nur-custom.inputs.nixpkgs.follows = "nixpkgs";
   };
 
-  outputs = { self, nixpkgs, home-manager, nix-on-droid }: {
+  outputs = { self, nixpkgs, home-manager, nix-on-droid, nur-custom, ... }@inputs:
+  {
 
     nixOnDroidConfigurations.default = nix-on-droid.lib.nixOnDroidConfiguration {
       modules = [
@@ -32,7 +35,7 @@
 
       # list of extra special args for Nix-on-Droid modules
       extraSpecialArgs = {
-        # rootPath = ./.;
+          inherit inputs;
       };
 
       # set nixpkgs instance, it is recommended to apply `nix-on-droid.overlays.default`
