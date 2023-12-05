@@ -42,7 +42,7 @@
     experimental-features = nix-command flakes
   '';
   nix.substituters = ["https://cache.nixos.org" "https://cache.garnix.io" ];
-  nix.settings.trusted-public-keys = [
+  nix.trustedPublicKeys = [
     #"nixbuild.net/nixbuild-1:RTmcV6NzBWCJgfq5rxZigu12jz0HZf18uh0wh/dL4O0="
     #"numtide.cachix.org-1:2ps1kLBUWjxIneOy1Ik6cQjb41X0iXVXeHigGmycPPE="
     #"nix-gaming.cachix.org-1:nbjlureqMbRAxR1gJ/f3hxemL9svXaZF/Ees8vCUUs4="
