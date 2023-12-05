@@ -2,28 +2,28 @@
 
 {
   environment.packages = with pkgs; [
-# or some other editor, e.g. nano or neovim
-#     diffutils
-#     findutils
-#     utillinux
-#     tzdata
-#     hostname
-#     gnugrep
-#     gnupg
-#     gnused
-#     gnutar
+    # or some other editor, e.g. nano or neovim
+    #     diffutils
+    #     findutils
+    #     utillinux
+    #     tzdata
+    #     hostname
+    #     gnugrep
+    #     gnupg
+    #     gnused
+    #     gnutar
     libgourou
-  git
-  nixpkgs-fmt
-  man
-  vim
+    git
+    nixpkgs-fmt
+    man
+    vim
 
-  # necessary unzipping
-  bzip2
-  gzip
-  xz
-  zip
-  unzip
+    # necessary unzipping
+    bzip2
+    gzip
+    xz
+    zip
+    unzip
     p7zip
     fish
     openssh
@@ -40,8 +40,16 @@
   # Set up nix for flakes
   nix.extraOptions = ''
     experimental-features = nix-command flakes
-    
   '';
+  nix.substituters = ["https://cache.nixos.org" "https://cache.garnix.io" ];
+  nix.settings.trusted-public-keys = [
+    #"nixbuild.net/nixbuild-1:RTmcV6NzBWCJgfq5rxZigu12jz0HZf18uh0wh/dL4O0="
+    #"numtide.cachix.org-1:2ps1kLBUWjxIneOy1Ik6cQjb41X0iXVXeHigGmycPPE="
+    #"nix-gaming.cachix.org-1:nbjlureqMbRAxR1gJ/f3hxemL9svXaZF/Ees8vCUUs4="
+    #"hakutaku-cache.cachix.org-1:xO0APxxyhJqmN29tIEBuqjhbrx3UIYxMfZ70SY6RuVo="
+    "cache.garnix.io:CTFPyKSLcx5RMJKfLo5EEPUObbA78b0YQ2DTCJXqr9g="
+    "cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY="
+  ];
 
   # Set your time zone
   time.timeZone = "China/Shanghai";
