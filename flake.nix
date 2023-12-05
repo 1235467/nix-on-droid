@@ -5,7 +5,7 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
     nix-on-droid = {
-      url = "github:nix-community/nix-on-droid/master";
+      url = "github:nix-community/nix-on-droid/release-23.05";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
