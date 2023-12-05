@@ -43,20 +43,9 @@
   user.shell = "${pkgs.fish}/bin/fish";
 
   home-manager = {
+    config = ./home.nix;
+    backupFileExtension = "hm-bak";
     useGlobalPkgs = true;
-    #
-    #    config =
-    #
-    #      { config, lib, pkgs, ... }:
-    #      {
-    #      # Read the changelog before changing this value
-    #        home.stateVersion = "22.11";
-    #
-    #      # insert home-manager config
-    #        imports =[
-    #./pkgs
-    #        ];
-    #        };
   };
 }
 
