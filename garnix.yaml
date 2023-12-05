@@ -5,3 +5,4 @@ builds:
  - 'packages.aarch64-linux.*'
  - 'defaultPackage.aarch64-linux'
  - 'devShell.aarch64-linux'
+ - 'nixOnDroidConfigurations.*'
