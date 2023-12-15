@@ -158,16 +158,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1702623784,
-        "narHash": "sha256-R5aaYuBn7HoQUGshHXkMnka2DfZNFEfp8T/kWizfoPU=",
+        "lastModified": 1702625717,
+        "narHash": "sha256-HUcXm40FyIIV7Z6tIbVmZmL4cK0t7e7QHs3ukAJSIzs=",
         "owner": "1235467",
-        "repo": "nurpkgs",
-        "rev": "139065d60b2968988d095133e33449b0fc68ce8e",
+        "repo": "nix-on-droid-pkgs",
+        "rev": "fbe842aa9f88ea68842de3c77a0ff060f9ad7a8e",
         "type": "github"
       },
       "original": {
         "owner": "1235467",
-        "repo": "nurpkgs",
+        "repo": "nix-on-droid-pkgs",
         "type": "github"
       }
     },

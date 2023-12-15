@@ -14,7 +14,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.home-manager.follows = "home-manager";
     };
-    nur-custom.url = "github:1235467/nurpkgs";
+    nur-custom.url = "github:1235467/nix-on-droid-pkgs";
     nur-custom.inputs.nixpkgs.follows = "nixpkgs";
   };
 
