@@ -25,6 +25,7 @@
     zip
     unzip
     p7zip
+    #unrar
     fish
     openssh
     rsync
@@ -55,7 +56,6 @@
     "cache.garnix.io:CTFPyKSLcx5RMJKfLo5EEPUObbA78b0YQ2DTCJXqr9g="
     "cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY="
   ];
-
   # Set your time zone
   time.timeZone = "China/Shanghai";
   user.shell = "${pkgs.fish}/bin/fish";
