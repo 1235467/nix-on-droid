@@ -35,6 +35,7 @@
     inputs.nur-custom.legacyPackages.aarch64-linux.ncmdump-rs
     inputs.nur-custom.legacyPackages.aarch64-linux.reflac
     inputs.nur-custom.legacyPackages.aarch64-linux.DownOnSpot
+    inputs.nur-custom.legacyPackages.aarch64-linux.BBDown
     
   ];
 
