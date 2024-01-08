@@ -30,7 +30,8 @@
     openssh
     rsync
     ffmpeg
-    doas 	
+    doas
+    wget 	
     inputs.nur-custom.legacyPackages.aarch64-linux.jjwxcCrawler
     inputs.nur-custom.legacyPackages.aarch64-linux.ncmdump-rs
     inputs.nur-custom.legacyPackages.aarch64-linux.reflac
