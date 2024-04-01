@@ -1,0 +1,3 @@
+nix flake lock --update-input nur-custom
+git add . 
+git commit -m "update flake lock of nurpkgs-custom"
