@@ -23,6 +23,7 @@ in
     rsync
     ffmpeg
     doas
+    nodejs
     wget 	
     nurpkg.jjwxcCrawler
     nurpkg.ncmdump-rs
